@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    <div class="modal" id="jtp-modal">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+  
+          <!-- left section -->
+          <div class="modal-content-left">
+            <img id="modal-img" src="jtp-modal-left.svg" alt="">
+          </div>
+  
+          <div class="modal-content-right">
+            <form action="/" method="GET" class="modal-form" id="form">
+              <h1>Join The Pack!</h1>
+              <div class="form-validation">
+                <input type="text" class="modal-input" id="name" name="name" 
+                  placeholder="Enter your name">
+                <p>Error Message</p>
+              </div>
+              <div class="form-validation">
+                <input type="email" class="modal-input" id="email" name="email" 
+                 placeholder="Enter your email">
+                <p>Error Message</p>
+              </div>
+  
+              <input type="submit" class="modal-input-btn" value="Submit">
+  
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
